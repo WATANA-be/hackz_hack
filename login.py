@@ -1,12 +1,13 @@
 def login():
     import tkinter as tk
     from tkinter import ttk
-
+    
 
     # メインウィンドウ作成
     root = tk.Tk()
     root.title("security")
     root.geometry("700x500")
+    ttk.Style().theme_use('clam')
 
 
     # ユーザーID
