@@ -57,4 +57,4 @@ def progressbar():
 
         root.mainloop()
 
-button_click2()
+#progressbar()
