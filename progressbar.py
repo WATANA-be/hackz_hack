@@ -11,16 +11,16 @@ def progressbar():
 
     if __name__ == '__main__':
         root = Tk()
-        ttk.Style().theme_use('aqua')
+        ttk.Style().theme_use('classic')
         root.title('Progress')
-        root.columnconfigure(0, weight=1);
-        root.rowconfigure(0, weight=1);
+        root.columnconfigure(0, weight=1)
+        root.rowconfigure(0, weight=1)
 
         # Frame
         frame1 = ttk.Frame(root, padding=10)
         frame1.grid(sticky=(N, W, S, E))
-        frame1.columnconfigure(0, weight=1);
-        frame1.rowconfigure(0, weight=1);
+        frame1.columnconfigure(0, weight=1)
+        frame1.rowconfigure(0, weight=1)
 
         # プログレスバー (確定的)
         pbval = IntVar(value=3)
@@ -54,7 +54,8 @@ def progressbar():
 
 
         
-
+        root.after(100000,lambda: root.destroy())
         root.mainloop()
+        
 
 #progressbar()
