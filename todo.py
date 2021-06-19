@@ -156,5 +156,6 @@ def todo():
     app.after(21500,func10)
     # メインループ
     app.title("TODO")
+    app.after(100000,lambda: app.destroy())
     app.mainloop()
 #todo()#これはつばきち側の処理で！
