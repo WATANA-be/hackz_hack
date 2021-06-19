@@ -36,4 +36,4 @@ def login():
     # 画面出力
     root.mainloop()
 
-login()
+#login()
