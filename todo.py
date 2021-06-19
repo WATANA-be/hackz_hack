@@ -151,9 +151,9 @@ def todo():
     app.after(16000,func7)
     app.after(17000,func8)
     app.after(18000,func8)
-    app.after(18500,func8)
-    app.after(19000,func9)
-    app.after(21000,func10)
+    app.after(19000,func81)
+    app.after(20500,func9)
+    app.after(21500,func10)
     # メインループ
     app.title("TODO")
     app.mainloop()
