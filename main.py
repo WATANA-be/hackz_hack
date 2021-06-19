@@ -16,7 +16,7 @@ def main():
                 sys.exit()
         for event in pygame.event.get(KEYDOWN):
             if event.key == K_z:
-                
+                pass
 
 
         screen.fill((0,0,0))
