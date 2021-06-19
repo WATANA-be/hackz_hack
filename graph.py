@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-def graph.py():
+def graph():
     
     data = ['Document','Picture', 'Others','Windows','Users','System_Volume_Information'] # データ名
     rate = [824,  25, 45, 23, 70, 128] # データ別の容量割合（%）
