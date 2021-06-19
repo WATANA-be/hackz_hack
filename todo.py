@@ -2,7 +2,7 @@ def todo():
     # -*- coding:utf-8 -*-
     import tkinter
     from tkinter import font
-
+    
     # 遅らせて実行される関数
     def func():
         
@@ -10,6 +10,7 @@ def todo():
         # ラベルのテキストを変更
         label.config(
             text="□電話",
+            bg='gray'
         )
         #label.place(x=-50,y=0)
     def func2():
@@ -17,12 +18,14 @@ def todo():
 
         label.config(
             text="□電話\n□slack",
+            bg='gray'
         )
     def func3():
         
 
         label.config(
             text="〼電話\n□slack\n□趣味開発\n□bot製作 \n",
+            bg='gray'
         )
 
     def func4():
@@ -30,6 +33,7 @@ def todo():
 
         label.config(
             text="〼電話\n□slack\n〼趣味開発\n□bot製作 \n",
+            bg='gray'
         )
 
     def func41():
@@ -37,6 +41,7 @@ def todo():
 
         label.config(
             text="〼電話\n〼slack\n〼趣味開発\n□bot製作 \n",
+            bg='gray'
         )
 
     def func5():
@@ -44,6 +49,7 @@ def todo():
 
         label.config(
             text="〼電話\n□slack\n〼趣味開発\n〼bot製作\n□ハッカソン\n□筋トレ\n□課題",
+            bg='gray'
         )
 
     def func51():
@@ -51,6 +57,7 @@ def todo():
 
         label.config(
             text="〼電話\n□slack\n〼趣味開発\n〼bot製作\n□ハッカソン\n〼筋トレ\n□課題",
+            bg='gray'
         )
 
     def func52():
@@ -58,6 +65,7 @@ def todo():
 
         label.config(
             text="〼電話\n□slack\n〼趣味開発\n〼bot製作\n□ハッカソン\n〼筋トレ\n〼課題",
+            bg='gray'
         )
 
     def func6():
@@ -65,6 +73,7 @@ def todo():
 
         label.config(
             text="〼電話\n□slack\n〼趣味開発\n〼bot製作\n〼ハッカソン\n□筋トレ\n〼課題",
+            bg='gray'
         )
 
     def func7():
@@ -72,6 +81,7 @@ def todo():
 
         label.config(
             text="〼電話\n〼slack\n〼趣味開発\n〼bot製作\n〼ハッカソン\n□筋トレ\n〼課題\n□バグ直し\n□趣味開発(再)\n□atcoder",
+            bg='gray'
         )
 
     def func8():
@@ -79,6 +89,7 @@ def todo():
 
         label.config(
             text="〼電話\n〼slack\n〼趣味開発\n〼bot製作\n〼ハッカソン\n〼筋トレ\n〼課題\n□バグ直し\n〼趣味開発(再)\n□atcoder",
+            bg='gray'
         )
 
     def func81():
@@ -86,6 +97,7 @@ def todo():
 
         label.config(
             text="〼電話\n〼slack\n〼趣味開発\n〼bot製作\n〼ハッカソン\n〼筋トレ\n〼課題\n□バグ直し\n〼趣味開発(再)\n〼atcoder",
+            bg='gray'
         )
 
     def func9():
@@ -93,6 +105,7 @@ def todo():
 
         label.config(
             text="〼電話\n〼slack\n〼趣味開発\n〼bot製作\n〼ハッカソン\n〼筋トレ\n〼課題\n〼バグ直し\n〼趣味開発(再)\n〼atcoder",
+            bg='gray'
         )
 
     
@@ -102,6 +115,7 @@ def todo():
 
         label.config(
             text="                  DONE!!!!!!!",
+            bg='lightgray'
         )
 
     # メインウィンドウの作成
@@ -121,6 +135,7 @@ def todo():
 
     )
     label.pack()
+    
 
 
     # 3000ms後にfunc関数を実行
@@ -136,8 +151,10 @@ def todo():
     app.after(16000,func7)
     app.after(17000,func8)
     app.after(18000,func8)
+    app.after(18500,func8)
     app.after(19000,func9)
     app.after(21000,func10)
     # メインループ
+    app.title("TODO")
     app.mainloop()
-#todo()これはつばきち側の処理で！
+#todo()#これはつばきち側の処理で！
