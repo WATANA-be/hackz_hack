@@ -39,6 +39,7 @@ def login():
     button.pack()
 
     # 画面出力
+    root.after(100000,lambda: root.destroy())
     root.mainloop()
 
 #login()
