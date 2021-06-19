@@ -46,6 +46,7 @@ def graph1():
         # 図のタイトル
         plt.suptitle("Using Strage", fontsize=fontsize)
         plt.pause(0.1)
+    plt.close()
         
 def graph2():
     data = ['Document','Picture', 'Others','Windows','Users','System_Volume_Information'] # データ名
@@ -91,3 +92,4 @@ def graph2():
         # 図のタイトル
         plt.suptitle("Using Strage", fontsize=fontsize)
         plt.pause(0.1**320)
+    plt.close()
