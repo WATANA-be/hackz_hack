@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 
 def progressbar():
- 
+
 
     def button_click():
         pbval.set(pbval.get() + 1)
