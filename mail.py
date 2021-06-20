@@ -142,7 +142,8 @@ def mail():
   frame2.grid(column=1,row=0)
   frame3.grid(column=0,row=1)
   frame4.grid(column=1,row=1)
-
+  
+  app.after(1500,lambda: app.destroy())
   # メインループ
   app.mainloop()
   app.close()
